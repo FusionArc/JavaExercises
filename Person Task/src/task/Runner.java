@@ -4,24 +4,36 @@ public class Runner {
 
 	public static void main(String[] args) {
 		
+		// Instantiate list object
 		PersonList pl = new PersonList();
 		
+		// Instantiate Person Objects
 		Person personOne = new Person("David Barrow", 40, "Welder");
 		Person personTwo = new Person("Kym Pilkington", 46, "Personal Assistant");
 		Person personThree = new Person("Lawson Pilkington", 16, "Apprentice");
 		
+		// Add Person Objects to the PersonList object of pl
+		pl.people.add(personOne);
+		pl.people.add(personTwo);
+		pl.people.add(personThree);
+		
+		
+		// Print formatted object strings
 		System.out.println(personThree.getName() + " is an " + personThree.getJobTitle());
+		System.out.println("=".repeat(12));
 		System.out.println(personTwo.getName() + " is " + personTwo.getAge() + " years old");
+		System.out.println("=".repeat(12));
 		System.out.println(personOne.getName() + " is currently a " + personOne.getJobTitle());
+		System.out.println("=".repeat(12));
 		
-		PersonList.people.add(personOne);
-		PersonList.people.add(personTwo);
-		PersonList.people.add(personThree);
-		
-		System.out.println(PersonList.people.size());
+		// Print Size of list object
+		System.out.println(pl.people.size());
+		System.out.println("=".repeat(12));
 		
 		pl.searchPeeps("David Barrow");
+		System.out.println("=".repeat(12));
 		
+		pl.displayAll();
 	}
 }
 /*

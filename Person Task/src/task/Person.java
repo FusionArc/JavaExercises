@@ -47,7 +47,7 @@ public class Person {
 	
 	@Override
 	public String toString() {
-		return "Person:\n name: " + name + "\nage: " + age + "\nJob Title: " + jobTitle;
+		return "Person:\n\tname: " + name + "\n\tage: " + age + "\n\tJob Title: " + jobTitle;
 	}
 
 }
