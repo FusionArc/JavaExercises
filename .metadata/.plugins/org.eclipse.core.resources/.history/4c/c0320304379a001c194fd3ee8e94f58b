@@ -1,0 +1,11 @@
+package task;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PersonList {
+	
+	List<Person> people = new ArrayList<>();
+	
+
+}

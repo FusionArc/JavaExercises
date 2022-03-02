@@ -1,0 +1,17 @@
+package runner;
+
+import java.sql.SQLException;
+
+import dao.MovieDAO;
+import domain.Movie;
+
+public class Runner {
+	
+	public static void main(String[] args) throws SQLException {
+		Movie movieOne = new Movie(1,"Double Jeopardy", "Thriller", 7);
+		Movie movieTwo = new Movie(2, "The Long Kiss Goodnight", "Action", 9);
+		MovieDAO dao = new MovieDAO();
+		dao.create(movieOne);
+		dao.create(movieTwo);
+	}
+}

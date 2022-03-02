@@ -1,0 +1,15 @@
+package runner;
+
+import java.sql.SQLException;
+
+import dao.MovieDAO;
+import domain.Movie;
+
+public class Runner {
+	
+	public static void main(String[] args) throws SQLException {
+		Movie movieOne = new Movie("The Old Guard", "Sci-Fi", 7);
+		MovieDAO dao = new MovieDAO();
+		dao.create(movieOne);
+	}
+}

@@ -1,0 +1,24 @@
+INDEX VERSION 1.131+C:\Users\davec\Dev\QA\JavaExercises\.metadata\.plugins\org.eclipse.jdt.core
+3024531522.index
+4083530874.index
+2772189863.index
+3736977300.index
+433325723.index
+812060084.index
+3919597827.index
+384558603.index
+1546347650.index
+2178751970.index
+4223370073.index
+3398125984.index
+1347524899.index
+2895603959.index
+4149268384.index
+3048885576.index
+399547132.index
+2672793272.index
+2178987511.index
+2750716043.index
+1454112807.index
+663795324.index
+1865797976.index

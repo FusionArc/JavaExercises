@@ -1,0 +1,13 @@
+package runner;
+
+import java.sql.SQLException;
+
+import dao.MovieDAO;
+
+public class Runner {
+	
+	public static void main(String[] args) throws SQLException {
+		MovieDAO dao = new MovieDAO();
+		dao.create(null);
+	}
+}

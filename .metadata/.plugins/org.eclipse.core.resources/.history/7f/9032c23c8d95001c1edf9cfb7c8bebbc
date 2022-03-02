@@ -1,0 +1,10 @@
+
+public interface Developer {
+	private BackEndDeveloper back = new BackEndDeveloper();
+	private FrontEndDeveloper front = new FrontEndDeveloper();
+
+	public void implement() {
+        back.writeJava();
+        front.writeJavaScript();
+    }
+}
