@@ -21,10 +21,8 @@ public class Runner {
 		// Print formatted object strings
 		System.out.println(personThree.getName() + " is an " + personThree.getJobTitle());
 		System.out.println("=".repeat(12));
-		
 		System.out.println(personTwo.getName() + " is " + personTwo.getAge() + " years old");
 		System.out.println("=".repeat(12));
-		
 		System.out.println(personOne.getName() + " is currently a " + personOne.getJobTitle());
 		System.out.println("=".repeat(12));
 		
@@ -32,11 +30,9 @@ public class Runner {
 		System.out.println(pl.people.size());
 		System.out.println("=".repeat(12));
 		
-		// Call the search method
 		pl.searchPeeps("David Barrow");
 		System.out.println("=".repeat(12));
 		
-		// Call the Display All Method
 		pl.displayAll();
 	}
 }
