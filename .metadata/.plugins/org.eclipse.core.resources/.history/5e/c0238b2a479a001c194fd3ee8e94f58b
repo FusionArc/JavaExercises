@@ -4,8 +4,6 @@ public class Runner {
 
 	public static void main(String[] args) {
 		
-		PersonList pl = new PersonList();
-		
 		Person personOne = new Person("David Barrow", 40, "Welder");
 		Person personTwo = new Person("Kym Pilkington", 46, "Personal Assistant");
 		Person personThree = new Person("Lawson Pilkington", 16, "Apprentice");
@@ -20,7 +18,7 @@ public class Runner {
 		
 		System.out.println(PersonList.people.size());
 		
-		pl.searchPeeps("David Barrow");
+		System.out.println(PersonList.searchPeeps("David Barrow"));
 		
 	}
 }
