@@ -1,5 +1,7 @@
 package task;
 
+import animals.Dog;
+
 public class Runner {
 
 	public static void main(String[] args) {
@@ -38,6 +40,9 @@ public class Runner {
 		
 		// Call the Display All Method
 		pl.displayAll();
+		
+		
+		pl.hasPet(personThree, true);
 	}
 }
 /*
@@ -60,4 +65,8 @@ public class Runner {
  * 
  * HINT: you can iterate through collections using streams with forEach().
  * 
+ * 
+ * Person extension task: 
+ * Add pet/s to the different people and ensure the pets
+ *  are also printed when you return the each person!
  */
